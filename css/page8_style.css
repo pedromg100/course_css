@@ -1,0 +1,95 @@
+body {
+    background-color: lightblue;
+}
+
+#image-1 {
+    height: 300px;
+    width: 60%;
+}
+
+#image-2 {
+    border: 3px dotted red;
+}
+
+#image-3 {
+    border: 4px dashed blue;
+}
+
+#image-4 {
+    border: 2px solid;
+}
+
+#image-5 {
+    border: 10px double;
+}
+
+#image-6 {
+    background-color: steelblue;
+    border: 5px solid;
+    padding: 20px;
+}
+
+#image-7 {
+    background-color: steelblue;
+    border: 5px solid;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+#image-8 {
+    background-color: steelblue;
+    border: 5px solid;
+    padding: 10px 20px 30px 40px;
+}
+
+#image-9 {
+    background-color: steelblue;
+    border: 5px solid;
+    margin: 10px 20px 30px 40px;
+}
+
+#text-2 {
+    float: right;
+}
+
+#text-4 {
+    float: left;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.display-none {
+    display: none;
+}
+
+.inline-text {
+    display: inline;
+    height: 100px;
+    padding: 5px;
+    background-color: yellow;
+    border: 1px solid;
+}
+
+.block-text {
+    height: 100px;
+    padding: 5px;
+    display: block;
+    background-color: yellow;
+    border: 1px solid;
+}
+
+.inline-block-text {
+    display: inline-block;
+    height: 100px;
+    padding: 5px;
+    background-color: yellow;
+    border: 1px solid;
+}

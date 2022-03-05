@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(133, 255, 255);
+}
+
+.grid-container {
+    background-color: white;
+    margin: 10px;
+    height: 300px;
+
+    display: grid;
+}
+
+.grid-item {
+    font-size: 25px;
+    text-align: center;
+    width: 70px;
+    line-height: 40px;
+    margin: 10px;
+}
+
+#grid-2 {
+    grid-template-columns: 10px 50px 10px;
+    grid-template-rows: 50px 250px;
+}
+
+#grid-3 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+#grid-4 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+
+#grid-5 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: end;
+}
+
+#grid-6 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+}
+
+#grid-7 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+}
+
+#grid-8 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#grid-9 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+#grid-10 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+
+#grid-11 {
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto auto;
+}
+
+#grid-12 {
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 100px;
+}
+
+#grid-13 {
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto auto;
+    grid-gap: 100px 50px;
+}
+
+#grid-14 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+#grid-15 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+#grid-16 {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}

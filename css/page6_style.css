@@ -1,0 +1,122 @@
+body {
+  background: lightcyan;
+  color: black;
+}
+
+#item-1 {
+  color: blue;
+}
+
+#item-2 {
+  color: #0000ff;
+}
+
+#item-3 {
+  color: rgb(0, 0, 255);
+}
+
+#section-2 {
+  background: url("https://img.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg?size=626&ext=jpg");
+}
+
+#section-3 {
+  background: url("../files/pattern-1.jpg");
+}
+
+#section-4 {
+  height: 400px;
+  width: 70%;
+  background: url("../files/cat.jpg");
+  background-repeat: repeat;
+}
+
+#section-5 {
+  height: 400px;
+  width: 70%;
+  background: url("../files/cat.jpg");
+  background-repeat: no-repeat;
+  background-color: lightblue;
+}
+
+#section-6 {
+  height: 400px;
+  width: 70%;
+  background: url("../files/cat.jpg");
+  background-size: 400px 70%;
+}
+
+#section-7 {
+  height: 400px;
+  width: 70%;
+  background: url("../files/cat.jpg");
+  background-size: cover;
+}
+
+#section-8 {
+  height: 400px;
+  width: 70%;
+  background: url("../files/cat.jpg");
+  background-size: contain;
+}
+
+#item-4 {
+  color: rgba(0, 0, 255, 1);
+}
+
+#item-5 {
+  color: rgba(0, 0, 255, 0.6);
+}
+
+#item-6 {
+  color: rgba(0, 0, 255, 0.3);
+}
+
+#section-10 {
+  height: 400px;
+  width: 70%;
+  background: linear-gradient(red, blue);
+}
+
+#section-11 {
+  height: 400px;
+  width: 70%;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple
+  );
+}
+
+#section-12 {
+  height: 400px;
+  width: 70%;
+  background: linear-gradient(to top left, rgb(0, 255, 0), rgba(0, 255, 0, 0));
+}
+
+#section-13 {
+  height: 400px;
+  width: 70%;
+  background: linear-gradient(-30deg, rgb(70, 130, 180), rgba(70, 130, 180, 0));
+}
+
+#section-14 {
+  height: 400px;
+  width: 70%;
+  background: radial-gradient(red, yellow, blue);
+}
+
+#section-15 {
+  height: 400px;
+  width: 70%;
+  background: radial-gradient(red 30%, yellow 60%, blue 40%);
+}
+
+#section-16 {
+  height: 400px;
+  width: 70%;
+  background: radial-gradient(circle, red 30%, yellow 60%);
+}

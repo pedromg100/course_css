@@ -1,0 +1,24 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+p[class*="item"] {
+  color: green;
+}
+
+p[class^="item"] {
+  color: red;
+}
+
+p[class$="item"] {
+  color: yellow;
+}
+
+p[class="item"] {
+  color: blue;
+}
+
+p[class~="item_1"] {
+  color: purple;
+}

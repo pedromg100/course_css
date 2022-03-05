@@ -1,0 +1,23 @@
+/*
+selector {
+    property: value;
+    property2: value2;
+}
+*/
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.class1{
+    color:darkgreen;
+}
+
+.section-title{
+    color: darkblue;
+}
+
+#text-1-1{
+    color: red;
+}

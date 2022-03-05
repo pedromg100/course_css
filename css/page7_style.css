@@ -1,0 +1,117 @@
+#text-1 {
+  text-decoration: none;
+}
+
+#text-2 {
+  text-decoration: underline;
+}
+
+#text-3 {
+  text-decoration: line-through;
+}
+
+#text-4 {
+  text-decoration: overline;
+}
+
+#text-5 {
+  text-transform: capitalize;
+}
+
+#text-6 {
+  text-transform: uppercase;
+}
+
+#text-7 {
+  text-transform: lowercase;
+}
+
+#text-8 {
+  text-align: left;
+}
+
+#text-9 {
+  text-align: right;
+}
+
+#text-10 {
+  text-align: center;
+}
+
+#text-11 {
+  text-align: justify;
+}
+
+#text-12 {
+  font-size: 1.25em;
+}
+
+#text-13 {
+  font-weight: 800;
+}
+
+#text-14 {
+  font-style: italic;
+}
+
+#text-15 {
+  font-style: oblique;
+}
+
+#text-16 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#text-17 {
+  font-family: sans-serif;
+}
+
+#text-18 {
+  font-family: monospace;
+}
+
+#text-18 {
+  font-family: monospace;
+}
+
+#text-19 {
+  font-family: "Indie Flower", cursive;
+}
+
+#text-20 {
+  font-family: "Major Mono Display", monospace;
+}
+
+#text-21 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+#text-22 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+#text-23 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+#text-24 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+#text-25 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+@font-face {
+    font-family: aurebesh;
+    src:url(../files/Aurebesh.otf);
+}
+
+#text-26 {
+  font-family: aurebesh;
+}

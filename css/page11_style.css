@@ -1,0 +1,132 @@
+.submit-button {
+  margin: 20px 10px;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  background: rgb(26, 109, 253);
+}
+
+.submit-button:hover {
+  background: rgb(142, 183, 255);
+}
+
+#bt-2 {
+  transition: background 2s ease;
+}
+
+#bt-3 {
+  transition: background 2s linear;
+}
+
+#bt-4 {
+  transition: background 2s ease-in-out;
+}
+
+#bt-5 {
+  transition: background 2s ease 2s;
+}
+
+#bt-6 {
+  transition: all 2s ease 500ms;
+}
+
+#bt-6:hover {
+  padding: 20px 30px;
+}
+
+#bt-7 {
+  transform: translate(50px, 20px);
+}
+
+#bt-8 {
+  transform: scale(0.75);
+}
+
+#bt-9 {
+  transform: rotate(90deg);
+}
+
+#bt-10 {
+  transform: skewY(30deg);
+}
+
+#bt-11 {
+  transform: skewX(30deg);
+}
+
+#bt-12 {
+  transform: matrix(1, -0.5, 1, 1, 50, 0);
+  /* transform: matrix(scaleX, skewY, skweX, scaleY, translateX, translateY); */
+}
+
+#bt-13 {
+    animation-name: red-to-black;
+    animation-duration: 4s;
+}
+
+#bt-14 {
+    animation-name: red-to-black;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+#bt-15 {
+    animation-name: red-to-black;
+    animation-duration: 4s;
+    animation-delay: -2s;
+}
+
+#bt-16 {
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#bt-17 {
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+}
+
+#bt-18 {
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+#bt-19 {
+    animation:rotate 4s linear 0s 2 alternate;
+}
+
+.loading {
+    width: 50px;
+    height: 50px;
+    border: 10px solid;
+    border-color: lightblue;
+    border-top-color: rgb(111, 169, 255);
+    border-radius: 50%;
+    animation:rotate 4s linear 0s infinite normal;
+}
+
+@keyframes simple-red-to-black {
+    from {background: red;}
+    to {background: black;}
+}
+
+@keyframes red-to-black {
+    0% {background: red; transform: translate(0px, 0px);}
+    50% {background: blue; transform: translate(10px, 10px);}
+    100% {background: black; transform: translate(0px, 20px);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg)}
+}

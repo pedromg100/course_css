@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  background-color: lightblue;
+  margin: 0;
+  padding: 0 0 30px 30px;
+}
+
+.content {
+  flex: 1 1 75%;
+}
+
+.sidebar {
+  background-color: lightsalmon;
+  flex: 1 1 25%;
+}
+
+.sidebar > div {
+  margin: 10px;
+  border: 4px solid rgb(255, 123, 0);
+  padding: 10px;
+}
+
+.para-1 > img {
+  float: right;
+  width: 30%;
+  margin: 20px;
+}
+
+.image-grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.image-grid > img {
+  width: 240px;
+  height: 135px;
+  padding: 30px;
+  justify-content: space-around;
+  align-content: space-evenly;
+  transition: all 0.75s ease;
+}
+
+.image-grid > img:hover {
+  width: 310px;
+  height: 150px;
+  padding: 0;
+}

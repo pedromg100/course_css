@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+p:hover{
+    color:blue;
+}
+
+li:first-child{
+    color:red;
+}
+
+li:last-child{
+    color:blue;
+}
+
+li:nth-child(3){
+    color:yellow;
+}
+
+li:only-child{
+    color:purple;
+}
+
+#google-link:link{
+    color:red;
+}
+
+#google-link:visited{
+    color:green;
+}
